@@ -32,17 +32,20 @@ src/
 * Clone the repository 
 ```
 bash
+
 git clone https://github.com/Abeem007/portfolio.git
 cd portfolio
 ```
 * Install dependencies
 ```
 bash
+
 npm install
 ```
 * Set up environment variables
 ```
 env
+
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
@@ -50,11 +53,13 @@ VITE_EMAILJS_TEMPLATE_ID=your_template_id
 * Run development server
 ```
 bash
+
 npm run dev
 ```
 * Build for production
 ```
 bash
+
 npm run build
 ```
 
