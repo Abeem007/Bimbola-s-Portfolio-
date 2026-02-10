@@ -70,7 +70,7 @@ npm run build
 
 * Hero Section: Introduction with call-to-action
 
-* Projects Showcase: Interactive carousel/grid of work samples
+* Projects Showcase: Interactive grid of work samples
 
 * Skills Section: Visual representation of technical skills
 
