@@ -4,9 +4,9 @@ A sleek, responsive portfolio website built with React, TypeScript, and Tailwind
 ## Features
 * Modern Design: Clean, professional interface with gradient accents and glass-morphism effects
 * Interactive Components:
-  1.) Project carousel with swipe gestures
-  2.) Animated navigation menu
-  3.) Smooth scroll navigation
+  1. Project carousel with swipe gestures
+  2. Animated navigation menu
+  3. Smooth scroll navigation
 * Contact Form: Integrated with EmailJS for direct email communication
 
 ## Tech Stack
@@ -30,28 +30,34 @@ src/
 ```
 ## Quick Start
 * Clone the repository 
-``` bash
+```
+bash
 git clone https://github.com/Abeem007/portfolio.git
 cd portfolio
 ```
 * Install dependencies
-``` bash
+```
+bash
 npm install
 ```
 * Set up environment variables
-``` env
+```
+env
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 ```
 * Run development server
-  ``` bash
-  npm run dev
-  ```
+```
+bash
+npm run dev
+```
 * Build for production
-  ``` bash
-  npm run build
-  ```
+```
+bash
+npm run build
+```
+
 ## Deployment
 ### Deploy to Netlify
 * Push your code to GitHub
