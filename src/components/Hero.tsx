@@ -19,7 +19,7 @@ const Hero = () => {
               <span
                 className="
                   text-transparent bg-clip-text
-                  bg-linear-to-r from-cyan-400 via-cyan-500 to-cyan-600
+                  bg-linear-to-r from-cyan-400  to-blue-500
                   drop-shadow-[0_0_14px_rgba(34,211,238,0.9)]
                 "
               >

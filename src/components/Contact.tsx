@@ -107,8 +107,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="text-white min-h-screen pb-12 px-4 md:px-8 pt-25 " id="contact">
-      <h1 className="text-3xl md:text-5xl font-bold text-center pb-8 md:pb-12 bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+    <div
+      className="text-white min-h-screen pb-12 px-4 md:px-8 md:pt-22 lg:pt-30 "
+      id="contact"
+    >
+      <h1 className="text-2xl md:text-4xl font-bold text-center pb-8 md:pb-12 ">
         Let's Work Together
       </h1>
 
@@ -171,24 +174,24 @@ const Contact = () => {
                   href="https://github.com/Abeem007?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center gap-4 p-4 rounded-xl bg-linear-to-r from-gray-900/50 to-gray-800/30 hover:from-gray-900/80 hover:to-gray-800/50 border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-gray-500/10"
+                  className="group flex items-center gap-4 p-4 rounded-xl bg-linear-to-r from-gray-900/50 to-gray-800/30 hover:from-cyan-900/20 hover:to-blue-900/20 border border-gray-800 hover:border-cyan-500/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-gray-500/10"
                 >
                   <div className="relative">
-                    <div className="absolute inset-0 bg-linear-to-br from-gray-700 to-gray-900 rounded-xl blur opacity-20 group-hover:opacity-40 transition-opacity" />
-                    <div className="relative p-3 rounded-lg bg-linear-to-br from-gray-900 to-gray-800 border border-gray-700 group-hover:border-gray-600">
-                      <Github className="w-6 h-6 text-gray-300 group-hover:text-white transition-colors" />
+                    <div className="absolute inset-0 bg-linear-to-br from-cyan-500 to-blue-600 rounded-xl blur opacity-20 group-hover:opacity-40 transition-opacity" />
+                    <div className="relative p-3 rounded-lg bg-linear-to-br from-gray-900 to-gray-800 border border-gray-700 group-hover:border-cyan-500/50">
+                      <Github className="w-6 h-6 text-cyan-400 group-hover:text-cyan-300 transition-colors" />
                     </div>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-sm text-gray-400">GitHub</span>
-                    <span className="text-white font-medium group-hover:text-gray-200 transition-colors">
+                    <span className="text-white font-medium group-hover:text-cyan-300 transition-colors">
                       Abeem007
                     </span>
-                    <span className="text-xs text-gray-500 truncate max-w-50 md:max-w-none">
+                    <span className="text-xs text-gray-600 group-hover:text-cyan-300 transition-colors truncate max-w-50 md:max-w-none">
                       github.com/Abeem007
                     </span>
                   </div>
-                  <ExternalLink className="w-5 h-5 text-gray-600 ml-auto group-hover:text-gray-400 transition-colors" />
+                  <ExternalLink className="w-5 h-5 text-gray-600 ml-auto group-hover:text-cyan-400 transition-colors" />
                 </a>
               </div>
             </div>

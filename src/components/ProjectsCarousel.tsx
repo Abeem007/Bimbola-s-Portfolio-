@@ -87,10 +87,13 @@ const ProjectsCarousel = () => {
   }, [handleNext]);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-26  md:py-19" id="portfolio">
+    <div
+      className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20  md:pt-19 md:pb-3"
+      id="portfolio"
+    >
       <div className="flex flex-col items-center">
         <div className="w-full flex flex-col sm:flex-row items-center justify-between mb-8 md:mb-12">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4 sm:mb-0">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wide mb-4 sm:mb-0">
             Featured Projects
           </h2>
 

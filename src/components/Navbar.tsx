@@ -11,17 +11,19 @@ const handleMobileNavClick = () => {
     <div className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-md flex py-6 px-5 md:px-10 lg:px-20 md:py-7 justify-between items-center">
       <div>
         <h2 className="text-xl font-bold">
+          {" "}
+          
           Bimbo{" "}
-          <span className="bg-clip-text  text-transparent bg-linear-to-r from-cyan-400 via-cyan-500 to-cyan-600">
+          <span className="bg-clip-text  text-transparent bg-linear-to-r from-cyan-400  to-blue-500">
             Okunade
           </span>
         </h2>
       </div>
       <nav className="hidden md:block font-bold">
-        <ul className="flex items-center md:space-x-8 lg:space-x-9 cursor-pointer md:text-xs lg:text-lg ">
+        <ul className="flex items-center md:space-x-8 lg:space-x-9 cursor-pointer md:text-base lg:text-lg ">
           <li>
             <a
-              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-cyan-600 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
+              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400  hover:to-blue-500 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
               href="#hero"
             >
               Home
@@ -29,7 +31,7 @@ const handleMobileNavClick = () => {
           </li>
           <li>
             <a
-              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-cyan-600 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
+              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400  hover:to-blue-500 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
               href="#about"
             >
               About me
@@ -37,7 +39,7 @@ const handleMobileNavClick = () => {
           </li>
           <li>
             <a
-              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-cyan-600 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
+              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400  hover:to-blue-500 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
               href="#skills"
             >
               My Skills
@@ -46,7 +48,7 @@ const handleMobileNavClick = () => {
           <li>
             {" "}
             <a
-              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-cyan-600 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
+              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400 hover:to-blue-500 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
               href="#portfolio"
             >
               Portfolio
@@ -54,7 +56,7 @@ const handleMobileNavClick = () => {
           </li>
           <li>
             <a
-              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-cyan-600 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
+              className="relative transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-cyan-400  hover:to-blue-500 hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.9)]"
               href="#contact"
             >
               Contact me
@@ -79,7 +81,7 @@ const handleMobileNavClick = () => {
             >
               <img src={Close} alt="close-button" />
             </button>
-            <nav >
+            <nav>
               <ul className="h-60 bg-black/70 cursor-pointer w-51 pl-4  md:text-xs lg:text-lg flex flex-col items-start  justify-start space-y-5 md:space-x-8 lg:space-x-9 ">
                 <li>
                   <a
