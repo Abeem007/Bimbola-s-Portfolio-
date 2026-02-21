@@ -236,7 +236,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-gray-900/50 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all duration-300"
-                        placeholder="John Doe"
+                        placeholder="Oluwatade Emmanuel"
                       />
                       <div className="absolute inset-0 rounded-xl bg-linear-to-r from-cyan-500/0 via-cyan-500/0 to-cyan-500/0 group-focus-within:from-cyan-500/5 group-focus-within:via-cyan-500/10 group-focus-within:to-cyan-500/5 transition-all duration-500 pointer-events-none" />
                     </div>
@@ -258,7 +258,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-gray-900/50 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all duration-300"
-                        placeholder="john@example.com"
+                        placeholder="oluwatade@example.com"
                       />
                       <div className="absolute inset-0 rounded-xl bg-linear-to-r from-blue-500/0 via-blue-500/0 to-blue-500/0 group-focus-within:from-blue-500/5 group-focus-within:via-blue-500/10 group-focus-within:to-blue-500/5 transition-all duration-500 pointer-events-none" />
                     </div>
