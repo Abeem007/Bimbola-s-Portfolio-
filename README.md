@@ -17,7 +17,7 @@ A sleek, responsive portfolio website built with React, TypeScript, and Tailwind
 * Deployment: Netlify
 
 ## Live Demo
-https://bimboportfolio.netlify.app/#contact
+https://bimboportfolio.netlify.app/
 
 ## Project Structure
 ```
